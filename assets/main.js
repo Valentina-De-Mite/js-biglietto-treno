@@ -13,7 +13,6 @@ L'output del prezzo finale va stampato in forma umana (ovvero con massimo due de
 - moltiplico i km per 0.21
 - if eta' > o uguale 65: -40%
 - if eta' < o = 17: -20%
-- document.getElementById
 - console.log 
 */
 
@@ -52,3 +51,8 @@ if (userAge > 65) {
 const newPrice = z - discount;
 
 console.log(Math.round(newPrice) + " Euro");
+
+// stampo in pagina
+
+total.innerHTML = z + " Euro";
+total.innerHTML = newPrice + " Euro";
